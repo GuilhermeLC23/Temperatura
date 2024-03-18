@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Clima</title>
+</head>
+
+<body>
+    <div class="container-big">
+
+        <div class="square">
+            <input placeholder="Digite o nome da cidade" class="input-city">
+            <button class="button-search" onclick="cliqueiNoBotao()">
+                <img class="img-search" src="./assets/find.svg" alt="img-busca">
+            </button>
+
+            <div class="container-medium">
+                <h2 class="city">Cidade</h2>
+
+                <P class="temp">°C</P>
+                <p class="temp-2">°C</p>
+
+                <div class="container-smaller">
+                    <img src="./assets/04n.png" alt="icone-tempo" class="icone">
+                    <p class="weather-forecast"></p>
+                </div>
+
+                <p class="moisture">Umidade: %</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/GuilhermeLC23" target="_blank">
+                <img src="./assets/logo-github.png" alt="link para github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/guilherme-link-corbellini-49686b264/" target="_blank" class="github">
+                <img src="./assets/logo-linkedin.png" alt="link para linkdin">
+            </a>
+        </div>
+
+        <img src="https://source.unsplash.com/1600x900/?landscape" alt="foto" class="img-body">
+
+    </div>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
